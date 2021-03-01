@@ -1,0 +1,85 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url('vecteezy_rainbow_background_aa0121.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;    
+}
+/* navbar */
+a{
+    color: #070707;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.nav-link{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* hero */
+.hero-content{
+    margin-top: 4rem;
+}
+.hero-content h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.hero-content h3{
+    font-weight: 700;
+}
+.social-icons-hero div{
+    border: 1px solid black;
+    border-radius: 50%;   
+}
+.hero img{
+  margin-top: 100px;
+   padding: 50px 0 30px 0;
+   border-radius: 50%;
+   height: 500px;
+  
+}
+
+/* About */
+
+
+.section-heading{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+
+
+.btn-main{
+    background-color: #9aa0ac;
+    color: white;
+    font-size: 1.3rem;
+}
+.btn-main:hover{
+    color: rebeccapurple;
+    background-color: rgb(240, 185, 194);
+   
+}
+/* services */
+
+.service{
+    box-shadow: lightgray 0 5px 5px 0px;
+    border-radius: 2rem;
+}
+.service h3{
+    font-weight: 700;
+}
+.service i{
+    font-size: 2rem;
+}
+
+
+/* contact */
+
+.contact input, textarea{
+    padding: 1rem 0.4rem;
+    font-size: 1.3rem;
+    width: 100%;
+    border-radius: 10px;border: none;
+}
